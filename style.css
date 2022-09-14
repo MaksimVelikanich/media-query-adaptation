@@ -1,0 +1,176 @@
+.tittle {
+    color:rgb(11, 11, 71);
+    text-align: center;
+    font-family: 'Poppins';
+}
+
+.text {
+    text-align: center;
+    font-family: 'Poppins';
+    color:gray;
+}
+
+.first {
+    text-align: center;
+    display: flex;
+}
+
+.second {
+    text-align: center;
+    display: flex;
+}
+
+.third {
+    text-align: center;
+    display: flex;
+}
+
+.phrase {
+    font-family: "Poppins";
+    color:rgb(5, 5, 34);
+}
+
+.description {
+    font-family: "Poppins";
+    color: gray;
+}
+
+
+@media screen and (min-width:1280px) {
+    .object-2 {
+        display: none;
+    }
+
+    .object-1 {
+        display: block;
+    }
+
+    .tittle {
+        font-size: 50px;
+        text-align: center;
+        padding-left: 370px;
+        padding-right: 370px;
+        padding-bottom: 50px;
+    }
+
+    .text {
+        padding-left: auto;
+        padding-right: auto;
+        padding-bottom: 70px;
+    }
+
+    .first {
+        padding-left: 200px ;
+        padding-right: 200px;
+    }
+
+    .second {
+        padding-top: 100px;
+        padding-left: 200px ;
+        padding-right: 200px;
+    }
+
+    .phrase {
+        font-size: 22px;
+        padding-top: 30px;
+    }
+
+    .description {
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 30px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .object-2 {
+        display: none;
+    }
+
+    .object-1 {
+        display: block;
+    }
+
+    .tittle {
+        font-size: 30px;
+        text-align: center;
+        padding-right: 90px;
+        padding-left: 90px;
+    }
+
+    .text {
+        padding-top: 20px;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-bottom: 30px;
+    }
+
+    .first {
+        flex-direction: column;
+    }
+
+    .second {
+        flex-direction: column;
+    }
+
+    .phrase {
+        padding-bottom: 10px;
+        font-size: 22px;
+    }
+
+    .description {
+        padding-bottom: 30px;
+        padding-left: 35px ;
+        padding-right: 35px;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width: 1279px) {
+    .object-2 {
+        display: block;
+    }
+
+    .object-1 {
+        display: none;
+    }
+
+    .tittle {
+        font-size: 30px;
+        text-align: center;
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+
+    .text {
+        font-size: 16px;
+        padding-top: 30px;
+        padding-left: 110px;
+        padding-right: 110px;
+        padding-bottom: 50px;
+    }
+
+    .first {
+        padding-top: 50px;
+        padding-right: 40px;
+        padding-left: 40px;
+    }
+
+    .second {
+        padding-top: 50px;
+        padding-right: 40px;
+        padding-left: 40px;
+    }
+
+    .third {
+        padding-top: 50px;
+        padding-right: 40px;
+        padding-left: 40px;
+    }
+    .phrase {
+        padding-top: 20px;
+    }
+
+    .description {
+        padding-top: 20px;
+    }
+}
